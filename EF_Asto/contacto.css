@@ -1,0 +1,55 @@
+/* Fondo degradado en la sección de contacto */
+.contact-section {
+    background: linear-gradient(135deg, rgb(95, 2, 217), rgb(100, 2, 118));
+    padding: 80px 20px;
+    color: rgb(0, 0, 0);
+    height: 1200px;
+
+}
+
+/* Estilo para el formulario */
+form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+
+}
+
+/* Cambiar color del fondo del spinner de carga */
+#loadingSpinner {
+    margin-top: 20px;
+}
+
+/* Botón de envío */
+.btn-primary {
+    background-color: #62048e;
+    border-color: #5d02a7;
+}
+
+.btn-primary:hover {
+    background-color: #5e0277;
+    border-color: #6404b3;
+}
+
+/* Estilo para los iconos de redes sociales */
+.social-icons a {
+    font-size: 2em;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #FF00DD;
+}
+.section-title{
+    color: white;
+}
+
+
+footer{
+    height: 60px;
+    width:100%;
+    background: #5e0277;
+    color: white;
+}

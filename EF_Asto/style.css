@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.portadap {
+    background: url('IMG/PORTADA3.jpg') no-repeat center center;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    color: white;
+    height: 100vh;
+    background-color: #f8f9fa;
+    padding: 50px;
+    align-items: center;
+}
+.portada {
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+.bt{
+    padding: 40px;
+    text-align: center;
+}
+.cta-btn {
+    background-color: #af0ed3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.cta-btn:hover {
+    background-color: #2200ff;
+}
+.footer-section {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.menunav {
+    background-color: rgb(111, 0, 255);
+}
+.menunav a{
+    color: #f8f9fa;
+}
+#bienvenida{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
